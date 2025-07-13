@@ -17,6 +17,8 @@ prato_paozinho = Prato('Pãozinho', 2.00, 'O melhor pão da cidade')
 2
 restaurante_praca.adicionar_no_cardapio(bebida_suco)
 restaurante_praca.adicionar_no_cardapio(prato_paozinho)
+bebida_suco.aplicar_desconto()
+prato_paozinho.aplicar_desconto()
 
 def main():
     # Restaurante.listar_restaurantes()
